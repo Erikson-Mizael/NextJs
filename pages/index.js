@@ -1,9 +1,10 @@
-function conteudo(){
-    return 'Erikson'
+function estilo(){
+    var style ={
+        textAlign:"center"
+    }
+    return style
 }
-
-
-function pagina() {
-    return <div>{conteudo()}</div>
+function estudo(){
+    return <div style={estilo()}>Seja bem <strong>vindo</strong> NextJs</div>
 }
-export default pagina;
+export default estudo;
