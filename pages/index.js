@@ -1,4 +1,9 @@
-function Home() {
-    return <div>Erikson</div>
+
+function cabecalho(){
+    const conteudo = 'Bem vindo'
 }
-export default Home;
+
+function pagina() {
+    return <div>{conteudo}</div>
+}
+export default pagina;
