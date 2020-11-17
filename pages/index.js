@@ -4,6 +4,6 @@ function conteudo(){
 
 
 function pagina() {
-    return <div>{conteudo}</div>
+    return <div>{conteudo()}</div>
 }
 export default pagina;
